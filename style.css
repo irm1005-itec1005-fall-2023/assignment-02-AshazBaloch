@@ -186,7 +186,7 @@ table{
   cursor: pointer;
 }
 
-.shopbutsss{
+.shopbutsss {
   margin: 3rem auto; /* Center both horizontally and vertically */
   padding: 3rem;
   background-color: #16588e;
@@ -194,8 +194,8 @@ table{
   text-align: center;
   display: block; /* Ensure it's a block-level element for the margin: auto to work */
   width: fit-content; /* Adjust the width as needed */
-
 }
+
 .bimmermodslogo{
 
   length : 100px;
