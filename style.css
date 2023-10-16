@@ -164,12 +164,6 @@ table{
 
 }
 
-.snbutton{
-  margin: 0 auto; /* Center the element horizontally */
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
-}
 
 /* Add this to your CSS to style the shopping cart button */
 .cart-button {
@@ -184,17 +178,24 @@ table{
   border: none;
   font-size: 24px;
   cursor: pointer;
+
 }
 
-.shopbutsss {
-  margin: 3rem auto; /* Center both horizontally and vertically */
+.shopbutsss, .contactbut, .snbutton {
+  text-align: center;
+  display: block; /* Change to block to center the buttons */
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%;
   padding: 3rem;
   background-color: #16588e;
   color: #81c4ff;
-  text-align: center;
-  display: block; /* Ensure it's a block-level element for the margin: auto to work */
-  width: fit-content; /* Adjust the width as needed */
+  border-radius: 15px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
+
+
+
 
 .bimmermodslogo{
 
@@ -204,27 +205,6 @@ table{
 
 }
 
-.contactbut{
-  margin: 3rem auto; /* Center both horizontally and vertically */
-  padding: 3rem;
-  background-color: #16588e;
-  color: #81c4ff;
-  text-align: center;
-  display: block; /* Ensure it's a block-level element for the margin: auto to work */
-  width: fit-content; /* Adjust the width as needed */
 
-
-}
-.snbutton{
-
-  margin: 3rem auto; /* Center both horizontally and vertically */
-  padding: 3rem;
-  background-color: #16588e;
-  color: #81c4ff;
-  text-align: center;
-  display: block; /* Ensure it's a block-level element for the margin: auto to work */
-  width: fit-content; /* Adjust the width as needed */
-
-}
 
 
