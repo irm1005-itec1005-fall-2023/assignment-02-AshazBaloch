@@ -187,11 +187,13 @@ table{
 }
 
 .shopbutsss{
+  margin: 3rem auto; /* Center both horizontally and vertically */
   padding: 3rem;
   background-color: #16588e;
-  color : #81c4ff;
-  margin-top: 2rem;
-  margin-left: 54rem;
+  color: #81c4ff;
+  text-align: center;
+  display: block; /* Ensure it's a block-level element for the margin: auto to work */
+  width: fit-content; /* Adjust the width as needed */
 
 }
 .bimmermodslogo{
@@ -203,26 +205,26 @@ table{
 }
 
 .contactbut{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 54rem;
+  margin: 3rem auto; /* Center both horizontally and vertically */
   padding: 3rem;
   background-color: #16588e;
-  color : #81c4ff;
+  color: #81c4ff;
   text-align: center;
+  display: block; /* Ensure it's a block-level element for the margin: auto to work */
+  width: fit-content; /* Adjust the width as needed */
 
 
 }
 .snbutton{
 
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 54rem;
+  margin: 3rem auto; /* Center both horizontally and vertically */
   padding: 3rem;
   background-color: #16588e;
-  color : #81c4ff;
+  color: #81c4ff;
   text-align: center;
-  
+  display: block; /* Ensure it's a block-level element for the margin: auto to work */
+  width: fit-content; /* Adjust the width as needed */
+
 }
 
 
